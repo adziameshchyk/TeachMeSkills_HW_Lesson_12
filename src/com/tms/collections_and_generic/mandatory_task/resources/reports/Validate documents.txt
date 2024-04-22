@@ -1,0 +1,11 @@
+docnumHGsgo7329 - valid.
+ashg982jkads9JA - invalid. The name of the document must begin with "contract" or "docnum".
+docnumsadkjfgs9 - valid.
+contractasdjkhas2isdlui9U - invalid. The document title must contain 15 characters.
+contractsdIO234 - valid.
+begin2doc - invalid. The document title must contain 15 characters.
+docnumHGsgo7329 - valid.
+ashg982jkads9JA - invalid. The name of the document must begin with "contract" or "docnum".
+docnumsadkjfgs9 - valid.
+contractasdjkhas2isdlui9U - invalid. The document title must contain 15 characters.
+contractsdIO234 - valid.

@@ -1,4 +1,4 @@
-package com.tms.collections_and_generic.mandatory_task;
+package com.tms.collections_and_generic.mandatory_task.runner;
 
 import com.tms.collections_and_generic.mandatory_task.models.DocValidator;
 
@@ -51,7 +51,7 @@ public class Runner {
         }
 
         for (String filePath : inputFilePaths) {
-            DocValidator validator = new DocValidator(new File(filePath));
+            DocValidator validator = new DocValidator(filePath);
             validator.validate();
         }
     }

@@ -11,7 +11,7 @@ import java.util.Set;
 
 public class DocValidator {
 
-    private static final Path REPORT_DIR = Paths.get("reports");
+    private static final Path REPORT_DIR = Paths.get("src/com/tms/collections_and_generic/mandatory_task/resources/report");
     private static final File VALIDATE_DOCUMENTS = new File(REPORT_DIR.toFile(), "Validate documents.txt");
 
     private File sourceOfDocNumbers;
@@ -19,12 +19,13 @@ public class DocValidator {
 
     private Map<String, String> validationDocuments = new HashMap<>();
 
-    public DocValidator(File sourceOfDocNumbers) {
-        setSourceOfDocNumbers(sourceOfDocNumbers);
+    public DocValidator(String pathOfFile) {
+        setSourceOfDocNumbers(pathOfFile);
         createReportDirAndFiles();
     }
 
-    private void setSourceOfDocNumbers(File sourceOfDocNumbers) {
+    private void setSourceOfDocNumbers(String pathOfFile) {
+        File sourceOfDocNumbers = new File("src/com/tms/collections_and_generic/mandatory_task/resources/" + pathOfFile);
         if (sourceOfDocNumbers.isFile()) {
             this.sourceOfDocNumbers = sourceOfDocNumbers;
         } else {
