@@ -1,5 +1,5 @@
-# Files. IO streams
->This repository was created for homework in lessons №11 - "Files. IO streams".
+# Collections and Generic
+>This repository was created for homework in lessons №11 - "Collections and generic".
 ## Tasks
 
 ### Mandatory task:  
