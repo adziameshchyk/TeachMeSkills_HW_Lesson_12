@@ -1,5 +1,5 @@
 # Collections and Generic
->This repository was created for homework in lessons №11 - "Collections and generic".
+>This repository was created for homework in lessons №12 - "Collections and generic".
 ## Tasks
 
 ### Mandatory task:  
